@@ -1,5 +1,5 @@
-version: 0.1.0
 name: something
+
 description: ok
 branding:
   color: ffffff
@@ -8,7 +8,11 @@ branding:
 inputs:
   - name: sample
 
-
 configs:
   branches:
     - name: 1
+      parameters:
+        enforce-admins: true
+
+init:
+  uses: test.yml

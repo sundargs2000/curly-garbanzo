@@ -11,4 +11,4 @@ inputs:
 
 configs:
   branches:
-    - name: ${{
+    - name: 1

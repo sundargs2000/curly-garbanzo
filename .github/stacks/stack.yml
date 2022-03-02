@@ -1,1 +1,14 @@
+version: 0.1.0
+name: something
+description: ok
+branding:
+  color: ffffff
+  icon: alert-circle
+  
+inputs:
+  - name: sample
 
+
+configs:
+  branches:
+    - name: ${{
